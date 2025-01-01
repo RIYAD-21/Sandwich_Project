@@ -1,0 +1,370 @@
+body{
+    margin: 0%;
+    padding: 0%;  
+    height: 100vh;
+}
+.HomeImg{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;   
+}
+#HomeImg1{
+    position: fixed;
+}
+.footer{
+    background-color: #186595f7;
+    font-family:cursive;
+    color: rgb(248, 220, 62);
+    text-align: center; 
+    font-size: 10px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.backImg{
+    background-image: url(/photos/sponge2.jpeg);
+}
+.Kitchen{
+    background-image: url(photos/kitchen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+       
+}
+.header1{
+    background-color: #186595f7; 
+    font-family:cursive;
+    color: rgb(248, 220, 62);
+    text-shadow: 5px 5px 10px rgb(243, 255, 152);
+    text-align: center; 
+    padding: 1px;
+    font-size: 15px;   
+}
+.header2{
+    font-family:'Brush Script MT', cursive;
+    background-color: #186595f7;
+}
+h1{
+    text-align: center;
+}
+.container {
+    width: 100%; 
+    background-color:rgb(226, 240, 236); 
+    margin: auto; 
+    text-align: center;
+    border:1px solid rgb(31, 30, 30)
+}
+.block{
+    display:flex; 
+    border:2px solid black;
+    cursor: pointer;
+}
+.block :hover{
+    background-color: rgb(255, 226, 182);
+}
+.dropdown{
+    position: relative;
+    
+} 
+.drop-content{
+    display: none;
+    position: absolute;
+    background-color:rgb(226, 240, 236);
+    width: 50px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid black;
+    margin: 2px;
+    padding: 1px;
+    z-index: 1;
+}
+.container:hover .drop-content{
+    display: block;
+    background-color:rgb(226, 240, 236);   
+}
+.drop-content :hover{
+    background-color: rgb(255, 226, 182);
+    
+}
+.drop-content figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+.face1{
+    margin: auto auto;
+    padding: 13vh 0 0 0;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+#img1{
+    border-radius: 15%;
+    transition: width 0.5s, height 0.5s ;
+}
+#img1:hover{
+    box-shadow: 10px 0px 50px rgb(255, 255, 255);
+    width: 450px;
+}
+#img2{
+    border-radius: 15%;
+    transition: width 0.5s, height 0.5s ;
+}
+#img2:hover{
+    box-shadow: 10px 0px 50px rgb(255, 255, 255);
+    width: 420px;
+}
+.face2{
+    display:flex;
+    justify-content: center;
+}
+.txt{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:rgb(38, 86, 146);
+}
+#title1{
+    align-items: center;
+    font-size:270%;
+    font-family: cursive;
+    color: rgb(248, 220, 62);
+    text-shadow: 5px 5px 10px rgb(243, 255, 152);
+    letter-spacing: 8px;
+    font-size: 70px;
+}
+#title2{
+    align-items: center;
+    font-size:280%;
+    font-family: cursive;
+    color: rgb(248, 220, 62);
+    text-shadow: 5px 5px 10px rgb(243, 255, 152);
+    letter-spacing: 5px;
+}
+#title3{
+    align-items: center;
+    font-size:250%;
+    font-family: cursive;
+    color: rgb(248, 220, 62);
+    text-shadow: 5px 5px 10px rgb(243, 255, 152);
+    letter-spacing: 5px;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+.video1{
+    border: 30px solid rgb(46, 107, 161);
+    border-radius: 7%;
+}
+#M{
+    display:none;
+}
+#C{
+    display: none;
+}
+.mayonnaise{
+    background-color: #fff5e5;
+    height:70px;
+    width:353px;
+    border-radius:100% 100% 80% 80% ;
+    transform:rotateX(45deg);
+}
+.Ketchup{
+    background-color: rgb(190, 42, 42);
+    height:70px;
+    width:353px;
+    border-radius:100% 100% 80% 80% ;
+    transform:rotateX(45deg);
+}
+.beef{
+    height:60px;
+    width:356px;
+    border-radius:100% 100% 75% 75%;
+    background-color:#613203;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.bottombread{
+    position:relative;
+    height: 80px;
+    width: 356px;
+    background-color: #ff9933;
+    border-radius: 100% 100% 75% 75%;
+    box-shadow: 5px 10px 50px;
+}   
+.bottomtop{
+    position: absolute;
+    height: 50px;
+    width:356px;
+    top:0;
+    left: 0;
+    background-color:#ffbf80;
+    border-radius:100% 100% 75% 75%;
+}
+.container2{
+    width: 95vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: fixed;
+}
+.tomato{
+    background-color: #a00505;
+    height:70px;
+    width:353px;
+    border-radius:100% 100% 80% 80% ;
+    transform:rotateX(45deg);
+}
+.tomato:after{
+    content: '';
+    position:absolute;
+    height:55px;
+    width:353px;
+    top:2px;
+    background-color:#ff0808;
+    border-radius:100%;
+}
+.pickel{
+    
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    transform:rotateX(40deg);
+    box-shadow: 130px  20px  50px green;
+    
+}
+.pickel:after{
+    position: absolute;
+    height: 40px;
+    width: 90px;
+    top:2px;
+    left:3px;
+    background-color:rgb(202, 226, 202);
+    border-radius:50%;
+   
+}
+.lettuce{
+    width: 360px;
+    height: 70px;
+    background-color: #0d4;
+    border-radius: 50% 50% 5% 50%;
+    transform: rotateX(65deg);
+}
+.cheese{
+    width: 360px;
+    height: 56px;
+    background-color: #ff0;
+    border-radius:100% 100% 80% 80% ; 
+    transform: rotateX(25deg);   
+}
+.onion{
+    background-color: #661578;
+    height:70px;
+    width:353px;
+    border-radius:100% 100% 80% 80% ;
+    border: #661578;
+    transform:rotateX(45deg);
+}
+.onion:after{
+    content: '';
+    position:absolute;
+    height:55px;
+    width:353px;
+    top:2px;
+    background-color:hsl(296, 78%, 31%);
+    border-radius:100%;
+    border:2px solid #661578 ;
+}
+.mustard{
+    background-color: rgb(166, 150, 6);
+    height:70px;
+    width:353px;
+    border-radius:100% 100% 80% 80% ;
+    transform:rotateX(45deg);
+}
+.tomato, .beef, .lettuce, .cheese, .onion, .mustard, .pickel, .mayonnaise, .Ketchup {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    box-shadow: 5px 10px 50px;
+}
+.BurgerT{
+    display: none;
+}
+.buttonEnd{
+    margin:2px;
+    padding: 10px;
+    font-size: 20px;
+}
+.Check{
+    display: none;
+    margin:2px;
+    padding: 10px;
+    font-size: 20px;
+}
+.restart{
+    padding: 10px;
+    margin:2px;
+    font-size: 20px;
+}
+.buttons{
+    flex-direction: row-reverse;
+    display: flex;
+    margin: 10px;
+}
+.winimg{
+    margin: auto auto;
+    padding: 5vh 0 0 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#winimg1{
+    border-radius: 5%;
+}
+.lostImg{
+    margin: auto auto;
+    padding: 19vh 0 0 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#lostImg1{
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;
+}
+.return{
+    padding: 10px;
+    margin:2px;
+    font-size: 20px;
+    background-color:#186595f7;
+    text-decoration:solid;
+    font-family:cursive;
+    color:aliceblue;
+    margin-top:1%;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s ;
+}
+.return:hover{
+    background-color:rgb(104, 104, 255);
+    color:rgb(255, 255, 255);
+    box-shadow: 15px 0px 60px rgb(255, 255, 255);
+}
+.V3{
+    margin: auto auto;
+    padding: 10vh 0 0 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

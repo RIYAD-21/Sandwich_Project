@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un conteneur</title>
+    <style>
+        .container {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 1px solid #000;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajouter un conteneur en cliquant sur une image</h1>
+    <img id="triggerImage" src="https://via.placeholder.com/150" alt="Image déclencheur" style="cursor: pointer;">
+    <div id="containerArea"></div>
+
+    <script>
+        // Sélection de l'image
+        const triggerImage = document.getElementById('triggerImage');
+
+        // Sélection de l'emplacement où le conteneur sera ajouté
+        const containerArea = document.getElementById('containerArea');
+
+        // Fonction pour ajouter un conteneur
+        function addContainer() {
+            // Création d'un nouvel élément div
+            const newContainer = document.createElement('div');
+            newContainer.className = 'container'; // Ajout de la classe CSS
+            
+            // (Optionnel) Ajout de contenu dans le conteneur
+            newContainer.textContent = 'Nouveau conteneur';
+
+            // Ajout du conteneur dans la zone spécifiée
+            containerArea.appendChild(newContainer);
+        }
+
+        // Écouteur d'événement pour le clic sur l'image
+        triggerImage.addEventListener('click', addContainer);
+    </script>
+</body>
+</html>
+
+
