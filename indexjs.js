@@ -1,5 +1,5 @@
-const containerArea = document.getElementById('Burger');
-var z =0;
+
+var z =1;
 var t =305;
 const list = [];
 var v = true;
@@ -9,7 +9,7 @@ const sound = document.getElementById('AddSound');
 
 
 function addContainer(ingredient) {
-    
+    const containerArea = document.getElementById('Burger');
     const newContainer = document.createElement('div');
     if(list.length < 18) {
         if (v) {
