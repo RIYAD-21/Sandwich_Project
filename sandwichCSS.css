@@ -216,11 +216,11 @@ h1{
 }
 .container2{
     width: 95vw;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;  
-    
+    position:fixed;
 }
 .tomato{
     background-color: #a00505;
