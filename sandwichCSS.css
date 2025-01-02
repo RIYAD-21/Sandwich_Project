@@ -17,6 +17,9 @@ body{
 #HomeImg1{
     position: fixed;
 }
+#Burger {
+    position: relative;
+}
 .footer{
     background-color: #186595f7;
     font-family:cursive;
@@ -100,7 +103,7 @@ h1{
 }
 .face1{
     margin: auto auto;
-    padding: 13vh 0 0 0;
+    padding: 12vh 0 0 0;
     display:flex;
     justify-content: space-evenly;
     align-items: center;   
@@ -111,7 +114,7 @@ h1{
 }
 #img1:hover{
     box-shadow: 10px 0px 50px rgb(255, 255, 255);
-    width: 450px;
+    width: 420px;
 }
 #img2{
     border-radius: 15%;
@@ -132,12 +135,11 @@ h1{
 }
 #title1{
     align-items: center;
-    font-size:270%;
     font-family: cursive;
     color: rgb(248, 220, 62);
     text-shadow: 5px 5px 10px rgb(243, 255, 152);
     letter-spacing: 8px;
-    font-size: 70px;
+    font-size: 50px;
 }
 #title2{
     align-items: center;
@@ -203,7 +205,7 @@ h1{
     box-shadow: 5px 10px 50px;
 }   
 .bottomtop{
-    position: absolute;
+    position: relative;
     height: 50px;
     width:356px;
     top:0;
@@ -217,7 +219,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;  
-    position: fixed;
+    
 }
 .tomato{
     background-color: #a00505;
@@ -295,10 +297,8 @@ h1{
     transform:rotateX(45deg);
 }
 .tomato, .beef, .lettuce, .cheese, .onion, .mustard, .pickel, .mayonnaise, .Ketchup {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
+    
+    
     margin: 0;
     padding: 0; 
     box-shadow: 5px 10px 50px;
