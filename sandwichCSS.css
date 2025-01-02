@@ -62,7 +62,8 @@ h1{
     background-color:rgb(226, 240, 236); 
     margin: auto; 
     text-align: center;
-    border:1px solid rgb(31, 30, 30)
+    border:1px solid rgb(31, 30, 30);
+    font-family:cursive;
 }
 .block{
     display:flex; 
@@ -216,7 +217,7 @@ h1{
 }
 .container2{
     width: 95vw;
-    height: 85vh;
+    height: 85%;
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -298,8 +299,6 @@ h1{
     transform:rotateX(45deg);
 }
 .tomato, .beef, .lettuce, .cheese, .onion, .mustard, .pickel, .mayonnaise, .Ketchup {
-    
-    
     margin: 0;
     padding: 0; 
     box-shadow: 5px 10px 50px;
@@ -311,17 +310,47 @@ h1{
     margin:2px;
     padding: 10px;
     font-size: 20px;
+    border-radius: 15%;
+    background: #186595f7;
+    color:aliceblue;
+    border-color: #186595f7;
+    font-family:cursive;
+}
+.buttonEnd:hover{
+    background-color:rgb(104, 104, 255);
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 0px 30px rgb(197, 239, 255);
 }
 .Check{
     display: none;
     margin:2px;
     padding: 10px;
     font-size: 20px;
+    border-radius: 15%;
+    background: #186595f7;
+    color:aliceblue;
+    border-color: #186595f7;
+    font-family:cursive;
+}
+.Check:hover{
+    background-color:rgb(104, 104, 255);
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 0px 30px rgb(197, 239, 255);
 }
 .restart{
     padding: 10px;
     margin:2px;
     font-size: 20px;
+    border-radius: 15%;
+    background: #186595f7;
+    color:aliceblue;
+    border-color: #186595f7;
+    font-family:cursive;
+}
+.restart:hover{
+    background-color:rgb(104, 104, 255);
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 0px 30px rgb(197, 239, 255);
 }
 .buttons{
     flex-direction: row-reverse;
