@@ -17,6 +17,11 @@ body{
 #HomeImg1{
     position: fixed;
 }
+#Burger {
+    width: 100%;
+    max-width: 360px; 
+    margin: 0 auto;
+}
 .footer{
     background-color: #186595f7;
     font-family:cursive;
@@ -137,7 +142,7 @@ h1{
     color: rgb(248, 220, 62);
     text-shadow: 5px 5px 10px rgb(243, 255, 152);
     letter-spacing: 8px;
-    font-size: 70px;
+    font-size: 50px;
 }
 #title2{
     align-items: center;
@@ -295,7 +300,7 @@ h1{
     transform:rotateX(45deg);
 }
 .tomato, .beef, .lettuce, .cheese, .onion, .mustard, .pickel, .mayonnaise, .Ketchup {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
