@@ -20,12 +20,12 @@ body{
 #Burger {
     position: relative;
 }
-.footer{
+footer{
     background-color: #186595f7;
     font-family:cursive;
     color: rgb(248, 220, 62);
     text-align: center; 
-    font-size: 10px; 
+    font-size: 8px; 
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -114,7 +114,7 @@ h1{
 }
 #img1:hover{
     box-shadow: 10px 0px 50px rgb(255, 255, 255);
-    width: 420px;
+    width: 380px;
 }
 #img2{
     border-radius: 15%;
@@ -122,11 +122,12 @@ h1{
 }
 #img2:hover{
     box-shadow: 10px 0px 50px rgb(255, 255, 255);
-    width: 420px;
+    width: 350px;
 }
 .face2{
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 .txt{
     font-family:Arial, Helvetica, sans-serif;
@@ -139,7 +140,7 @@ h1{
     color: rgb(248, 220, 62);
     text-shadow: 5px 5px 10px rgb(243, 255, 152);
     letter-spacing: 8px;
-    font-size: 50px;
+    font-size: 40px;
 }
 #title2{
     align-items: center;
