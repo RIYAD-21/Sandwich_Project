@@ -1,6 +1,6 @@
 
-var z =1;
-var t = 0;
+var z =0;
+var t = -10;
 const list = [];
 var v = true;
 const KrabbyPatty = ["beef","Ketchup","mustard","pickel","onion","lettuce","cheese","tomato"];
