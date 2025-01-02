@@ -6,7 +6,7 @@ var v = true;
 const KrabbyPatty = ["beef","Ketchup","mustard","pickel","onion","lettuce","cheese","tomato"];
 var n = KrabbyPatty.length;
 const sound = document.getElementById('AddSound');
-
+const sound2 = document.getElementById('AddSound2');
 
 function addContainer(ingredient) {
     const containerArea = document.getElementById('Burger');
@@ -72,7 +72,9 @@ function addContainer(ingredient) {
             sound.play();
         }
     }else{
+        sound2.play();
         window.alert("You have reached the maximum amount of ingredients");
+        
     }
     
 }
