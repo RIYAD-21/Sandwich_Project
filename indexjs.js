@@ -80,7 +80,7 @@ function addContainer(ingredient) {
 }
 
 function CheckBurger(){
-    t
+    
             var s = JSON.stringify(list);
             var p = JSON.stringify(KrabbyPatty);
               if(s === p){
@@ -92,10 +92,7 @@ function CheckBurger(){
      
 }   
 
-function endBurger(){
-    var end = document.getElementById('BurgerT');
-    end.style.display="block";
-}
+
 
 function reloadPage(){
     location.reload();
