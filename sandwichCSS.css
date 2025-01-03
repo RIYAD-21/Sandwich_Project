@@ -176,14 +176,14 @@ h1{
     display: none;
 }
 .mayonnaise{
-    background-color: #fff5e5;
+    background-color: #ffe2b3;
     height:70px;
     width:353px;
     border-radius:100% 100% 80% 80% ;
     transform:rotateX(45deg);
 }
 .Ketchup{
-    background-color: rgb(190, 42, 42);
+    background-color: rgb(155, 36, 36);
     height:70px;
     width:353px;
     border-radius:100% 100% 80% 80% ;
@@ -224,7 +224,7 @@ h1{
     position:fixed;
 }
 .tomato{
-    background-color: #a00505;
+    background-color: #ff0808;
     height:70px;
     width:353px;
     border-radius:100% 100% 80% 80% ;
@@ -269,7 +269,7 @@ h1{
 .cheese{
     width: 360px;
     height: 56px;
-    background-color: #ff0;
+    background-color: rgb(255, 187, 0);
     border-radius:100% 100% 80% 80% ; 
     transform: rotateX(25deg);   
 }
